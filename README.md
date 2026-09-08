@@ -38,20 +38,9 @@
 
 <div align="center">
 
-### `Device` ─→ `Cloud` ─→ `Decision`
+<img src="pipeline.svg" alt="Field Device to MQTT to Ingestion to Processing to Time-Series DB to REST API to Dashboard" width="100%">
 
 </div>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0E1116','primaryTextColor':'#E9ECF1','primaryBorderColor':'#2DD4BF','lineColor':'#2DD4BF','fontFamily':'ui-monospace, SFMono-Regular, Menlo, monospace','fontSize':'13px'}}}%%
-flowchart LR
-    A[Field Device] --> B[MQTT]
-    B --> C[Ingestion]
-    C --> D[Processing]
-    D --> E[(Time-Series DB)]
-    E --> F[REST API]
-    F --> G[Dashboard]
-```
 
 ---
 
