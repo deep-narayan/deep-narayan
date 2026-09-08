@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" alt="Deep Narayan Upadhyay — Python Backend Engineer, IoT Systems Developer, Project Lead" width="100%">
+<img src="banner.svg" alt="Deep Narayan Upadhyay — Python Backend Engineer, IoT Systems Developer, Project Lead" width="100%">
 
 ### Building backend systems that connect software, data and the physical world.
 
