@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Data flow: Field Device to MQTT to Ingestion to Processing to Time-Series DB to REST API to Dashboard">
+  <defs>
+    <pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="150" rx="10" fill="#08090B"/>
+  <rect width="1200" height="150" rx="10" fill="url(#g)"/>
+
+  <text x="20" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="3" fill="#2DD4BF">DEVICE &#8212; CLOUD &#8212; DECISION</text>
+
+  <!-- connectors: dashed link + arrow head, drawn as plain paths -->
+  <path d="M164 75 H176" fill="none" stroke="#2DD4BF" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M176 71.5 L183 75 L176 78.5 Z" fill="#2DD4BF" fill-opacity="0.8"/>
+  <path d="M334 75 H346" fill="none" stroke="#2DD4BF" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M346 71.5 L353 75 L346 78.5 Z" fill="#2DD4BF" fill-opacity="0.8"/>
+  <path d="M504 75 H516" fill="none" stroke="#2DD4BF" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M516 71.5 L523 75 L516 78.5 Z" fill="#2DD4BF" fill-opacity="0.8"/>
+  <path d="M674 75 H686" fill="none" stroke="#2DD4BF" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M686 71.5 L693 75 L686 78.5 Z" fill="#2DD4BF" fill-opacity="0.8"/>
+  <path d="M844 75 H856" fill="none" stroke="#2DD4BF" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M856 71.5 L863 75 L856 78.5 Z" fill="#2DD4BF" fill-opacity="0.8"/>
+  <path d="M1014 75 H1026" fill="none" stroke="#2DD4BF" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M1026 71.5 L1033 75 L1026 78.5 Z" fill="#2DD4BF" fill-opacity="0.8"/>
+
+  <!-- nodes -->
+  <rect x="20" y="42" width="142" height="66" rx="8" fill="#0E1116" stroke="#2DD4BF" stroke-opacity="0.28"/>
+  <text x="91" y="76" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E9ECF1">Field Device</text>
+  <text x="91" y="94" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B737F">FLOW METER · DWLR</text>
+  <rect x="190" y="42" width="142" height="66" rx="8" fill="#0E1116" stroke="#2DD4BF" stroke-opacity="0.28"/>
+  <text x="261" y="76" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E9ECF1">MQTT</text>
+  <text x="261" y="94" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B737F">BROKER · QoS</text>
+  <rect x="360" y="42" width="142" height="66" rx="8" fill="#0E1116" stroke="#2DD4BF" stroke-opacity="0.28"/>
+  <text x="431" y="76" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E9ECF1">Ingestion</text>
+  <text x="431" y="94" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B737F">AUTH · PARSE</text>
+  <rect x="530" y="42" width="142" height="66" rx="8" fill="#0E1116" stroke="#2DD4BF" stroke-opacity="0.28"/>
+  <text x="601" y="76" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E9ECF1">Processing</text>
+  <text x="601" y="94" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B737F">VALIDATE · NORMALISE</text>
+  <rect x="700" y="42" width="142" height="66" rx="8" fill="#0E1116" stroke="#2DD4BF" stroke-opacity="0.28"/>
+  <text x="771" y="76" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E9ECF1">Time-Series DB</text>
+  <text x="771" y="94" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B737F">MYSQL · POSTGRES</text>
+  <rect x="870" y="42" width="142" height="66" rx="8" fill="#0E1116" stroke="#2DD4BF" stroke-opacity="0.28"/>
+  <text x="941" y="76" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E9ECF1">REST API</text>
+  <text x="941" y="94" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B737F">DJANGO · DRF</text>
+  <rect x="1040" y="42" width="142" height="66" rx="8" fill="#0E1116" stroke="#2DD4BF" stroke-opacity="0.28"/>
+  <text x="1111" y="76" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E9ECF1">Dashboard</text>
+  <text x="1111" y="94" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B737F">REACT CLIENT</text>
+</svg>
