@@ -1,6 +1,5 @@
-<!-- Profile README — lives at github.com/<username>/<username>. Keep banner.svg beside it.
-     Replace deep-narayan-upadhyay with your real GitHub username (the stats cards below
-     render an error card until it matches a real account). -->
+<!-- Profile README — lives at github.com/<username>/<username>.
+     Keep banner.svg and pipeline.svg beside it. -->
 
 <div align="center">
 
@@ -63,11 +62,6 @@
 ---
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=deep-narayan-upadhyay&show_icons=true&hide_border=true&hide_title=true&bg_color=0B0D10&title_color=2DD4BF&text_color=98A0AB&icon_color=2DD4BF&ring_color=2DD4BF" height="150">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deep-narayan-upadhyay&layout=compact&hide_border=true&hide_title=true&bg_color=0B0D10&title_color=2DD4BF&text_color=98A0AB" height="150">
-
-<br><br>
 
 <sub>`Python Backend` · `IoT Systems` · `REST APIs` · `Data Platforms` · `System Design` · `Project Lead`</sub>
 
