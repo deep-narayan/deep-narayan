@@ -56,7 +56,7 @@
 | **Smartphone Digital Twin** <sub>`concept`</sub> | Device state as recoverable cloud state | `System Design` `Cloud` |
 
 <div align="center">
-<sub>Full case studies, architecture diagrams and engineering notes → <a href="https://deepnarayanupadhyay.vercel.app">portfolio</a></sub>
+<sub>Full case studies, architecture diagrams → <a href="https://deepnarayanupadhyay.vercel.app">portfolio</a></sub>
 </div>
 
 ---
